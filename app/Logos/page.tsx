@@ -7,7 +7,7 @@ const LogoDescriptions = () => {
       <div className="p-6 bg-teal-100 text-teal-900 rounded-lg shadow-md mb-4">
         <h2 className="text-lg font-semibold mb-2">The first logo</h2>
         <p className="text-sm">
-          The first logo features a compass rose at its center with a prominent directional arrow pointing downwards, integrating a "V" shape that could symbolize "victory" or "valley." It's encircled by two rings that suggest motion or navigation. The color palette consists of different shades of teal, and the background is a light beige. The overall design conveys exploration or guidance.
+          The first logo features a compass rose at its center with a prominent directional arrow pointing downwards, integrating a &rdquo;V&rdquo; shape that could symbolize &rdquo;victory&rdquo; or &rdquo;valley.&rdquo; It&rsquo;s encircled by two rings that suggest motion or navigation. The color palette consists of different shades of teal, and the background is a light beige. The overall design conveys exploration or guidance.
         </p>
       </div>
 
@@ -31,7 +31,7 @@ const LogoDescriptions = () => {
       <div className="p-6 bg-green-300 text-green-900 rounded-lg shadow-md">
         <h2 className="text-lg font-semibold mb-2">The fourth logo</h2>
         <p className="text-sm">
-          The fourth logo is straightforward and clear, featuring a globe enclosed in a circle with dotted lines around it, suggesting a global connection or travel route. Over the globe, there's a banner with the text "WHERE 2 NEXT," indicating a theme of travel and exploration. The entire logo is set against a gradient background that shifts from green to blue, which can be associated with growth, eco-friendliness, or tranquility.
+          The fourth logo is straightforward and clear, featuring a globe enclosed in a circle with dotted lines around it, suggesting a global connection or travel route. Over the globe, there&rsquo;s a banner with the text &rdquo;WHERE 2 NEXT,&rdquo; indicating a theme of travel and exploration. The entire logo is set against a gradient background that shifts from green to blue, which can be associated with growth, eco-friendliness, or tranquility.
         </p>
       </div>
     </div>
