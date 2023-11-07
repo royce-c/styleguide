@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './globals.css'
+import Link from "next/link";
+import "./globals.css";
+
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,8 +18,17 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <main>
+      <div className="bg-black flex justify-end h-10">
+        <div className=" flex justify-around w-1/2 ">
+          <Link href="/" className="text-white"> Home</Link>
+          <Link href="/Logos" className="text-white"> Logos</Link>
+          <Link href="/ColorPallet" className="text-white"> ColorPallet</Link>
+          <Link href="/Typography" className="text-white"> Typography</Link>
+          <Link href="/Buttons" className="text-white"> Graphics/Icons</Link>
+        </div>
+      </div>
       <body className={inter.className}>{children}</body>
-    </html>
+    </main>
   )
 }
